@@ -1,0 +1,49 @@
+<nav>
+  <ul>
+    <li>
+      <a routerLink="" [class.activated]="currentUrl == '/'" title="users">
+        <i class="material-icons">supervised_user_circle</i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="posts" [class.activated]="currentUrl == '/posts'" title="post">
+        <i class="material-icons">message</i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="login" [class.activated]="currentUrl == '/login'" title="login">
+        <i class="material-icons">
+          supervised_user_circle
+        </i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="register" [class.activated]="currentUrl == '/register'" title="register">
+        <i class="material-icons">
+          supervised_user_circle
+        </i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="photo" [class.activated]="currentUrl == '/photo'" title="photo">
+        <i class="material-icons">
+          message
+        </i>
+      </a>
+    </li>
+    <li>
+        <a routerLink="comments" [class.activated]="currentUrl == '/comments'" title="comments">
+          <i class="material-icons">
+            message
+          </i>
+        </a>
+      </li>
+      <li>
+          <a routerLink="products" [class.activated]="currentUrl == '/products'" title="products">
+            <i class="material-icons">
+              message
+            </i>
+          </a>
+        </li>
+  </ul>
+</nav>
