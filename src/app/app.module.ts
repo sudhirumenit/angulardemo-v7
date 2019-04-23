@@ -15,6 +15,7 @@ import { LoginComponent } from './login/login.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { CommentsComponent } from './comments/comments.component';
 import { ProductsComponent } from './products/products.component';
+import { DragAndDropComponent } from './drag-and-drop/drag-and-drop.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ProductsComponent } from './products/products.component';
     LoginComponent,
     GalleryComponent,
     CommentsComponent,
-    ProductsComponent
+    ProductsComponent,
+    DragAndDropComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,4 @@
+import { DragAndDropComponent } from './drag-and-drop/drag-and-drop.component';
 import { ProductsComponent } from './products/products.component';
 import { CommentsComponent } from './comments/comments.component';
 import { GalleryComponent } from './gallery/gallery.component';
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path: 'products',
     component: ProductsComponent
+  },
+  {
+    path: 'dragAndDrop',
+    component: DragAndDropComponent
   }
 ];
 

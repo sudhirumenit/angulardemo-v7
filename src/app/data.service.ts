@@ -33,8 +33,11 @@ export class DataService {
   }
 
   getProducts() {
-    let headers = new HttpHeaders();
-    headers = headers.set('Content-Type', 'application/json; charset=utf-8');
-    return this.http.get('http://142.93.219.205/v1.0/products', {headers: headers})
+    // let headers = new HttpHeaders();
+    // headers = headers.set('Content-Type', 'application/json');
+    // headers = headers.set('Accept', 'application/json');
+    //return this.http.get('https://pp-enforcement-sandbox.herokuapp.com/v1/admiral/violations.json?keyword=2002613')
+   // return this.http.get('http://142.93.219.205/v1.0/products')
+   return this.http.get('https://pp-enforcement-sandbox.herokuapp.com/v1/admiral/violations.json?keyword=2002613')
   }
 }
